@@ -5,6 +5,7 @@
 1.PayOrderParse为解析订单日志
 输出格式
 以king榜为例
+
 new Text(baiduid),new Text(product,baiduid,start_time.deliver_time,pay_time,money,source,"king",prepay_type,is_succ,event_terminal_type,
 list_money,good_type.pay_type,pay_status,deliver_status,refund_time)
 ```
@@ -17,6 +18,7 @@ pay_type 付款类型
 2.UserPlayCollection解析播放日志，并添加用户身份信息
 首先解析四端的播放日志
 输出格式为
+
 new Text(device_type,baiduid,song_id),new Text(logDate,singer_id,p100ms,p60s,pend,time,favor,ref,rate,event_userid)
 ```
 time为播放时间
